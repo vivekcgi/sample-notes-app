@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #7957d5;
+}
+.body-content {
+  margin-top: 15px;
+}
+.note-card {
+    margin-bottom: 15px;
+}
+.title{
+    border-bottom: solid blueviolet 1px; 
+    padding: 0px;   
+}
+.title p {    
+    font-size: x-small;
+    color:slategray;
+    margin-left: 8px;
+    text-align: left;
+}
+.title .title-content p{
+    font-size: large;
+    color: #363636;
+    margin-left: 8px;
+    text-align: left;
+    padding: 0.75rem;
+}
+.buttons{
+    margin-right: 3px;
+}
+.note-completed{
+    text-decoration: line-through;
+}
