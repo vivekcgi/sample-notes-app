@@ -18,7 +18,6 @@ HTTP.interceptors.response.use(
   },
   error => {
     if (error.response) {
-      console.log(error.response);
       Vue.prototype.$buefy.toast.open({
         message: error.response.data.message || "Something went wrong",
         type: "is-danger"

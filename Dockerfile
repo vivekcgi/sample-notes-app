@@ -4,6 +4,8 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
+ARG VUE_APP_API_HOST
+ENV VUE_APP_API_HOST $VUE_APP_API_HOST
 RUN npm run build
 
 # production stage
