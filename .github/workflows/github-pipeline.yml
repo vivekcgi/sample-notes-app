@@ -39,4 +39,4 @@ jobs:
         docker tag notes-frontend:latest ${{ secrets.DOCKER_HUB_USER }}/notes-frontend:latest
         
         echo 'Pushing image to repository'
-        docker push ${{ secrets.DOCKER_HUB_USER }}/notes-app-service:latest
+        docker push ${{ secrets.DOCKER_HUB_USER }}/notes-frontend:latest
