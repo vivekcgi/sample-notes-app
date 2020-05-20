@@ -22,7 +22,7 @@ jobs:
       
     # Runs a set of commands using the runners shell
     - name: Docker login
-      env:
+      env: 
         DOCKER_HUB_USER: ${{ secrets.DOCKER_HUB_USER }} 
         DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
       run: |
