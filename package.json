@@ -12,7 +12,7 @@
     "buefy": "^0.8.9",
     "core-js": "^3.4.4",
     "lodash": "^4.17.15",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "vee-validate": "^3.2.1",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
